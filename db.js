@@ -4,7 +4,8 @@ var con = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "password",
-  database: "ecommerce"
+  database: "ecommerce",
+  port: 8889
 });
 
 // con.connect(function(err) {
